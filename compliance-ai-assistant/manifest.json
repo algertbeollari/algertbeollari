@@ -1,0 +1,16 @@
+{
+  "_comment": "Source ingestion manifest. Each entry must exist before the file is indexed. Add entries only for sources you are explicitly authorised to load (public regulatory publications, synthetic/sanitised data, or approved non-personal internal Markdown). Never add Personal Data, KYC/Client Assets evidence, SAR/STR material, or Board-confidential content here.",
+  "sources": [
+    {
+      "id": "SAMPLE-001",
+      "title": "Sample source (replace with real DFSA module extracts)",
+      "file": "sources/SAMPLE-001.md",
+      "type": "synthetic",
+      "authority": "none",
+      "status": "superseded",
+      "effective_date": "2000-01-01",
+      "permitted_content_level": "public",
+      "notes": "Placeholder only. Not authoritative. Remove once real sources are added."
+    }
+  ]
+}
