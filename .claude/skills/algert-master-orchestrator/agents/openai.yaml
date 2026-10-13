@@ -1,0 +1,11 @@
+interface:
+  display_name: Algert Master Orchestrator
+  short_description: Discovery, classification, routing, and governance layer across all Algert skills
+  default_prompt: Use $algert-master-orchestrator to work out which specialist skill(s) this task needs, confirm entity boundaries, and route accordingly before answering.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
